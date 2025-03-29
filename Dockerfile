@@ -7,7 +7,7 @@ LABEL homepage.group=Minecraft
 LABEL homepage.name="Above and Beyond v1.3"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/450/731/637712078711696255.png"
 LABEL homepage.widget.type=minecraft
-LABEL homepage.widget.url=CreateAboveandBeyond:25565
+LABEL homepage.widget.url=udp://CreateAboveandBeyond:25565
 RUN apt-get update && apt-get install -y curl unzip && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
 
