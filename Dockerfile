@@ -2,9 +2,9 @@
 
 FROM openjdk:8u312-jre-buster
 
-LABEL version="1.2"
+LABEL version="1.3"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="Above and Beyond v1.2"
+LABEL homepage.name="Above and Beyond v1.3"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/450/731/637712078711696255.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://CreateAboveandBeyond:25565
