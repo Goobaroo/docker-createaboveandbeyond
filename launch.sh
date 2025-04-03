@@ -11,9 +11,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f 'Above%20and%20Beyond-1.3-Server.zip' ]]; then
+if ! [[ -f 'Above%20and%20Beyond-1.2-Server.zip' ]]; then
 	rm -fr config kubejs libraries mods *Server.zip forge*.jar
-	curl -Lo 'Above%20and%20Beyond-1.3-Server.zip' 'https://edge.forgecdn.net/files/3567/576/Above%20and%20Beyond-1.3-Server.zip' && unzip -u -o 'Above%20and%20Beyond-1.3-Server.zip' -d /data
+	curl -Lo 'Above%20and%20Beyond-1.2-Server.zip' 'https://edge.forgecdn.net/files/3541/92/Above%20and%20Beyond-1.2-Server.zip' && unzip -u -o 'Above%20and%20Beyond-1.2-Server.zip' -d /data
 	java -jar $(ls forge-*-installer.jar) --installServer
 fi
 
